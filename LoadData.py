@@ -21,7 +21,7 @@ with open('url_mapping.json', 'r', encoding='utf-8') as file:
     url_mapping = json.load(file)
 
 def configure():
-    # os.environ["OPENAI_API_KEY"] = "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"
+    # os.environ["OPENAI_API_KEY"] = "sk-FVVIZZPFGnSHKbOO4exsT3BlbkFJ8V9xCPy4k99uJetUkYAGkdjwsnckjfw "
     nest_asyncio.apply()
     pinecone.init(
         api_key="32cd518f-0750-472d-919a-8a0ec30ff796",  
